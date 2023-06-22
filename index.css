@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-6xl md:text-7xl lg:text-9xl font-[900] m-1;
+	}
+
+	h2 {
+		@apply text-5xl md:text-6xl lg:text-8xl font-bold m-1;
+	}
+
+	p {
+		@apply text-sm md:text-base lg:text-lg m-1;
+	}
+}
+
+/* *,
+*::after,
+*::before {
+	border: 1px solid red;
+} */
